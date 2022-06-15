@@ -1095,10 +1095,11 @@ div.fancybox-progress {
 .videos-row {
 	width: 75%;
 	float: left;
-	display: flex;
-	flex-wrap: wrap;
+	display: grid;
+	grid-template-columns: calc(33.33% - .15rem) calc(33.33% - .15rem) calc(33.33% - .15rem);
+	gap: .75rem .5rem;
 }
-.video-item {
+/* .video-item {
 	width: calc(33.3% - .5rem);
 	margin-right: .5rem;
 	margin-bottom: .75rem;
@@ -1108,7 +1109,7 @@ div.fancybox-progress {
 }
 .Evermore.show:nth-child(4n) {
 	margin-right: 0;
-}
+} */
 .filter-active .video-item:not(.show) {
 	display: none;
 }
@@ -1874,10 +1875,14 @@ nav.releases-nav .owl-nav button.owl-prev, nav.releases-nav .owl-nav button.owl-
 	.videos-sidebar.sidebar-open ul {
 		height: 289.333px;
 	}
-	.videos-row .video-item {
+	.videos-row {
+		grid-template-columns: 100%;
+		gap: .75rem 0;
+	}
+	/*.videos-row .video-item {
 		max-width: 100%;
 		flex: 100%;
-	}
+	}*/
 	.release-item {
 		height: 2069px;
 	}
