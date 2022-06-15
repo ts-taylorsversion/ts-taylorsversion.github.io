@@ -951,6 +951,7 @@ div.fancybox-progress {
 .article-content {
 	background-color: rgba(204, 187, 176, .15);
 	font-family: "futura-pt", sans-serif;
+	font-size: 16px;
 	padding: 2rem;
 	position: relative;
 }
