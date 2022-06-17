@@ -1097,8 +1097,10 @@ div.fancybox-progress {
 .videos-row {
 	width: 75%;
 	float: left;
+	display: -ms-grid;
 	display: grid;
-	grid-template-columns: calc(33.33% - .15rem) calc(33.33% - .15rem) calc(33.33% - .15rem);
+	-ms-grid-columns: calc(33.33% - .34375rem) calc(33.33% - .34375rem) calc(33.33% - .34375rem);
+	grid-template-columns: calc(33.33% - .34375rem) calc(33.33% - .34375rem) calc(33.33% - .34375rem);
 	gap: .75rem .5rem;
 }
 /* .video-item {
