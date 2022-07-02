@@ -278,7 +278,10 @@ main {
 	width: 100%;
 	height: 100%;
 	object-fit: cover;
-	object-position: 50% 90%;
+	object-position: 50% 0%;
+}
+.slide-feature .mobile {
+	display: none;
 }
 .slide-2 {
 	background-image: url("../img/ibetyouthinkaboutme_herov2.jpg");
@@ -1781,6 +1784,12 @@ nav.releases-nav .owl-nav button.owl-prev, nav.releases-nav .owl-nav button.owl-
 	}
 	#home .owl-nav {
 		top: 50%;
+	}
+	.slide-feature .desktop {
+		display: none;
+	}
+	.slide-feature .mobile {
+		display: block;
 	}
 	.slide-2 .slide-layer.layer-1, .slide-3 .slide-layer.layer-1 {
 		left: 50%;
