@@ -406,10 +406,12 @@ main {
 	display: inline-block;
 }
 .bio-wrapper {
-	max-width: 450px;
 	background-color: #fff;
+	border: solid 1px rgba(0,0,0,.25);
+	box-shadow: 0 0 .5rem rgba(0,0,0,.125);
 	padding: 2rem;
 	margin-top: 1rem;
+	max-width: 450px;
 }
 .bio-wrapper h2 {
 	font-weight: 400;
@@ -438,9 +440,9 @@ main {
 	height: 100%;
 }
 .note-wrapper {
-	max-width: 650px;
 	margin-left: auto;
 	position: relative;
+	max-width: 650px;
 	z-index: 1;
 }
 .note-wrapper h1 {
@@ -459,6 +461,8 @@ main {
 .note-wrapper .note {
 	background-color: #fff;
 	color: #000;
+	border: solid 1px rgba(0,0,0,.25);
+	box-shadow: 0 0 .5rem rgba(0,0,0,.125);
 	padding: 1.5rem;
 	margin-top: 1rem;
 }
