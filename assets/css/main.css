@@ -764,26 +764,26 @@ div.owl-dots button.owl-dot:last-child {
 	opacity: .5;
 }
 .instagram li, .tumblr li {
+	padding-top: 100%;
+	position: relative;
 	transition: .5s;
-	aspect-ratio: 1;
 }
 .instagram li:hover, .tumblr li:hover {
 	opacity: 1;
 }
+.instagram li a, .tumblr li a, .instagram li img, .tumblr li img {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
 .instagram li a, .tumblr li a {
 	line-height: 0;
 	display: block;
-	position: relative;
-	width: 100%;
-	height: 100%;
 	outline: none;
 }
 .instagram li img, .tumblr li img {
-	position: absolute;
-	left: 0;
-	top: 0;
-	width: 100%;
-	height: 100%;
 	object-fit: cover;
 	line-height: 0;
 }
@@ -1179,33 +1179,33 @@ div.fancybox-progress {
 }
 .releases-nav li {
 	background-size: cover;
-	aspect-ratio: 1;
+	padding-top: 100%;
 	position: relative;
 	overflow: hidden;
 }
 .releases-nav li.release-redtaylorsversion {
-	background-image: url("../img/music_red_taylorsversion.png")
+	background-image: url("../img/music_red_taylorsversion.jpg")
 }
 .releases-nav li.release-fearlesstaylorsversion {
-	background-image: url("../img/music_fearless_taylorsversion.png")
+	background-image: url("../img/music_fearless_taylorsversion.jpg")
 }
 .releases-nav li.release-evermore {
-	background-image: url("../img/music_evermore.png")
+	background-image: url("../img/music_evermore.jpg")
 }
 .releases-nav li.release-folklore {
-	background-image: url("../img/music_folklore.png")
+	background-image: url("../img/music_folklore.jpg")
 }
 .releases-nav li.release-lover {
-	background-image: url("../img/music_lover.png")
+	background-image: url("../img/music_lover.jpg")
 }
 .releases-nav li.release-reputation {
-	background-image: url("../img/music_reputation.png")
+	background-image: url("../img/music_reputation.jpg")
 }
 .releases-nav li.release-1989 {
-	background-image: url("../img/music_1989.png")
+	background-image: url("../img/music_1989.jpg")
 }
 .releases-nav li.release-red {
-	background-image: url("../img/music_red.png")
+	background-image: url("../img/music_red.jpg")
 }
 .releases-nav li.release-speak-now {
 	background-image: url("../img/music_speaknow_deluxe.jpg")
@@ -1214,7 +1214,7 @@ div.fancybox-progress {
 	background-image: url("../img/music_fearless_platinum.png")
 }
 .releases-nav li.release-taylor-swift {
-	background-image: url("../img/music_ts.png")
+	background-image: url("../img/music_ts.jpg")
 }
 .releases-nav li a {
 	background-color: rgba(0,0,0,.5);
